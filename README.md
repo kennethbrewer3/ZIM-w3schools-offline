@@ -55,7 +55,7 @@ This will:
 
 | Option | Description |
 |--------|-------------|
-| `--skip-clone` | Skip the clone operation, use existing files in `html/pdfs/` |
+| `--skip-clone` | Skip the clone operation, use existing files in `W3Schools_offline` |
 | `--skip-zim` | Skip the ZIM build, just download the PDFs |
 | `--deploy` | Automatically deploy to Kiwix after building (requires `--zim-dest` and `--container`) |
 | `--zim-dest=PATH` | Path to your Kiwix library directory on the host |
