@@ -8,6 +8,8 @@ This project packages the [Archive of W3Schools](https://github.com/vahid-kazemi
 
 The web interface has search, branch filtering, and a VIEW button for each document.
 
+<img width="2557" height="1250" alt="image" src="https://github.com/user-attachments/assets/7930a8ed-0dde-4f12-8de5-79dd5d0f6ac7" />
+
 ## Directory Structure
 
 ```
@@ -42,6 +44,14 @@ The simplest way is to let the script handle everything in one shot:
   --deploy \
   --zim-dest=/your/kiwix/library \
   --container=your_kiwix_container
+```
+
+**Project Nomad users:**
+```bash
+./install.sh \
+  --deploy \
+  --zim-dest=/opt/project-nomad/storage/zim \
+  --container=nomad_kiwix_server
 ```
 
 This will:
