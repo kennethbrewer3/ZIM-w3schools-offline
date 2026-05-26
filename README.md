@@ -28,7 +28,7 @@ sudo apt install git unzip python3 zim-tools
 ### 2. Clone the Repo
 
 ```bash
-git clone https://github.com/jrsphoto/ZIM-w3schools-offline.git
+git clone https://github.com/kennethbrewer3/ZIM-w3schools-offline.git
 cd ZIM-w3schools-offline
 chmod +x install.sh
 ```
